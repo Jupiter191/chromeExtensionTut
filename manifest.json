@@ -20,7 +20,8 @@
     },
     "permissions": [
         "storage",
-        "declarativeContent"
+        "declarativeContent",
+        "activeTab"
     ],
     "background":{
       "scripts":["background.js"],
