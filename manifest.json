@@ -7,6 +7,11 @@
         "default_popup": "hello.html",
         "default_icon": "logo.png"
     },
+    "permissions": ["storage"],
+    "background":{
+      "scripts":["background.js"],
+      "persistent": false  
+    },
     "commands":{
         "_execute_browser_action":{
             "suggested_key":{
